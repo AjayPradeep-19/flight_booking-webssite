@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="arscss.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css" integrity="sha512-8BU3emz11z9iF75b10oPjjpamM4Mz23yQFQymbtwyPN3mNWHxpgeqyrYnkIUP6A8KyAj5k2p3MiYLtYqew7gIw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International flights</title>
+</head>
+<body>
+    <section class="section__containe booking__container">
+        <form>
+            <li id="oway" class="activecl trip_type flig-show click-one" onclick="setType('O');"><!-- One-Way --> One Way</li>
+            
+            <div class="form__group">
+                <span><i class="fa-sharp-duotone fa-solid fa-plane-departure"></i></span>
+                <div class="input__content">
+                    <div class="input__group">
+                        <input type="text" />
+                        <label>From</label>
+                    </div>
+                    <p>Where are you goung?</p>
+                </div>
+            </div>
+            <div class="form__group">
+                <span><i class="fa-sharp-duotone fa-solid fa-plane-arrival"></i></i></span>
+                <div class="input__content">
+                    <div class="input__group">
+                        <input type="number" />
+                        <label>To</label>
+                    </div>
+                    <p>Add guests</p>
+                </div>
+            </div>
+            <div class="form__group">
+                <span><i class="fa-sharp fa-solid fa-calendar-days"></i></span>
+                <div class="input__content">
+                    <div class="input__group">
+                        <input type="text" />
+                        <label>Departure</label>
+                    </div>
+                    <p>Add date</p>
+                </div>
+            </div>
+            <button class="button"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+        </form>
+    </section>
+
+</body>
+</html>
